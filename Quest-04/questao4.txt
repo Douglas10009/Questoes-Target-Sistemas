@@ -1,0 +1,54 @@
+Como não foi dito nada sobre na questão, supus que a partir da sala de interruptores é possível visualizar a sala adjacente.
+Em primeiro lugar, acendo o interruptor A e me dirijo para a sala 1
+
+caso a sala 1 esteja ligada:
+    retorno para a sala dos interruptores e ligo o interruptor B
+    Entro na sala 1
+    Dentro da sala 1 verifico a lâmpada da sala 2
+
+    (1) Caso a lâmpada da sala 2 esteja ligada:
+        Posso concluir que:
+        - o interruptor A acende a sala 1
+        - o interruptor B acente a sala 2
+        - o interruptor C acende a sala 3
+
+    (2) Caso a lâmpada da sala 2 esteja desligada:
+        Posso concluir que:
+        - o interruptor A acende a sala 1
+        - o interruptor B acende a sala 3
+        - o interruptor C acende a sala 2
+
+caso a lâmpada da sala 1 esteja desligada:
+    ainda na sala 1 verifico se a lâmpada da sala 2 está ligada
+    caso a lâmpada da sala 2 estiver ligada:
+        retorno a sala de interruptores
+        ligo o interruptor B
+        retorno para a sala 1 e verifico:
+
+        (3) caso a sala 1 esteja ligada:
+            Posso concluir que:
+            - o interruptor A acende a sala 2
+            - o interruptor B acente a sala 1
+            - o interruptor C acende a sala 3
+        
+        (4) caso a sala 1 esteja desligada:
+            Posso concluir que:
+            - o interruptor A acende a sala 2
+            - o interruptor B acente a sala 3
+            - o interruptor C acende a sala 1
+
+    caso a lâmpada da sala 1 e da sala 2 esteja desligada com o interruptor A ligado:
+        retorno para sala dos interruptores e ligo o interruptor B
+        Sigo para sala 1 e verifico
+
+        (5) caso a sala 2 esteja ligada:
+            Posso concluir que:
+            - o interruptor A acende a sala 3
+            - o interruptor B acente a sala 2
+            - o interruptor C acende a sala 1
+
+        (6) caso a sala 1 esteja ligada:
+            Posso concluir que:
+            - o interruptor A acende a sala 3
+            - o interruptor B acente a sala 1
+            - o interruptor C acende a sala 2
