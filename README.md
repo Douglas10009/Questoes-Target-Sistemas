@@ -59,7 +59,7 @@ f) 2,10, 12, 16, 17, 18, 19, **_21_**
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
  
-#### [resposta](/Quest-04/questao4.txt)
+#### [resposta](/Quest-04/questao4.txt) - [Imagem exemplificando](/Quest-04/diagrama-questão-4.png)
 
 5) Escreva um programa que inverta os caracteres de um string.
 
